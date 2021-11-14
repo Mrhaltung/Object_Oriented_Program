@@ -1,0 +1,10 @@
+{ "Rice":
+[{"name":"Basumathi","weight":"1","Price":"220"},
+{"name":"Bullet","weight":"2","Price":"320"}],
+"Pulses":
+[{"name":"GreenGram","weight":"3","Price":"120"},
+{"name":"Dal","weight":"5","Price":"160"}],
+"Wheat":
+[{"name":"Raja","weight":"6","Price":"140"},
+{"name":"Agra","weight":"3","Price":"120"}]
+}
