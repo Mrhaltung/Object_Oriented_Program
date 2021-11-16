@@ -6,7 +6,7 @@ namespace InventoryDataManagement
     {
         static void Main(string[] args)
         {
-            string Path = "D:/Program/inventory.json";
+            string Path = "C:\Users\lenovo\Source\Repos\Object_Oriented_Program\inventory.json";
             Console.WriteLine("Welcome to the Inventory Data Management.!!!");
 
             ReadInventoryData readInventoryData = new ReadInventoryData();
@@ -33,6 +33,15 @@ namespace InventoryDataManagement
                 Console.WriteLine("Wheat Details");
                 Console.WriteLine("Name : " + data.Wheat[i].name + " Weight : " + data.Wheat[i].weight + " Price : " + data.Wheat[i].price);
                 Console.WriteLine("---------------------------------------------------------");
+            }
+
+            Console.Write("If you want to give details press Y. : ");
+            char ch = Convert.ToChar(Console.ReadLine());
+            var consent = ch;
+
+            while (consent == 'y' || consent == 'Y')
+            {
+                InventoryFactory.InventoryFactories();
             }
         }
     }
