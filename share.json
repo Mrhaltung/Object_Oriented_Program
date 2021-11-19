@@ -1,0 +1,5 @@
+{ "Stock":
+[{"StockName":"TATA","quatity":"4","price":"234.97"},
+{"StockName":"Wipro","quatity":"2","price":"367.5"}
+{"StockName":"Mahindra","quatity":"7","price":"125"}]
+}
